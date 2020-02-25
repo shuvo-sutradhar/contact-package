@@ -15,5 +15,13 @@
         "psr-4": {
             "Shuvosd\\Contact\\": "src/"
         }
-    }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shuvosd\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
 }
